@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Images</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: white;
+            margin: 20px 0;
+            padding: 10px 30px;
+            transition: color 0.3s ease, transform 0.3s ease;
+            border-radius: 10px;
+        }
+        h1:hover {
+            color: #ff004f;
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px; /* Increased gap for better spacing */
+            padding: 30px;
+            max-width: 90vw;
+        }
+        img {
+            width: 600px;
+            height: 350px;
+            margin: 10px;
+            border-radius: 8px;
+            object-fit: contain; 
+            background-color: #333; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Images for Hospital System</h1>
+    <div class="image-container">
+        <img src="images/Bed_1.png" alt="Hospital Image 1">
+        <img src="images/Bed_2.jpg" alt="Hospital Image 2">
+        <img src="images/Bed_5.jpg" alt="Hospital Image 3">
+        <img src="images/Bed_3.jpg" alt="Hospital Image 4">
+       
+    </div>
+</body>
+</html>

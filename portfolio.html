@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Images</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: white;
+            margin: 20px 0;
+            padding: 10px 30px;
+            transition: color 0.3s ease, transform 0.3s ease;
+            border-radius: 10px;
+        }
+        h1:hover {
+            color: #ff004f;
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            max-width: 90vw;
+            gap: 30px;
+        }
+        img {
+            width: 600px; 
+            height: 350px; 
+            margin:10px;
+            border-radius: 8px;
+            object-fit: contain; 
+            background-color: #333; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Images for Portfolio Website</h1>
+    <div class="image-container">
+        <img src="images/p1.png" alt="Portfolio Image 1">
+        <img src="images/p2.png" alt="Portfolio Image 2">
+        <img src="images/p3.png" alt="Portfolio Image 3">
+        <img src="images/p4.png" alt="Portfolio Image 4">
+      
+    </div>
+</body>
+</html>
